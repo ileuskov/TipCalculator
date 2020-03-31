@@ -3,8 +3,7 @@ body{
     height: 100vh;
     background: no-repeat center center fixed;;
     background-image: linear-gradient(to right bottom, #7a8cff, #00b8ff, #00d7f4,#00e893, #87be0e);
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Concert One', cursive;
 }
 
 .container {
@@ -30,100 +29,43 @@ body{
     border-top-right-radius: 20px;
   }
   
-  p {
-    padding-left: 20px;
-  }
-  
-  form input[type="text"] {
-    width: 90px;
-  }
-  
-  input {
-    padding-left: 20px;
-  }
-  
-  #moneyAmount {
-    font-size: 14px;
-    /*color: #2980b9;*/
-    color: red;
-    background-color: #f7f7f7;
-    width: 60%;
-    padding: 5px 5px 8px 8px;
-  }
-  
-  #moneyAmount:focus {
-    background: #fff;
-    border: 3px solid #2980b9;
-    outline: none;
-  }
-  
-  #peopleAmount {
-    width: 60%;
-    padding: 5px 5px 8px 8px;
-    margin-left: 20px;
-    color: red;
-    background-color: #f7f7f7;
-    font-size: 14px;
-  }
-  
-  .dollarSign {
-    display: inline;
-  }
-  
-  #serviceQuality {
-    padding: 13px 13px 20px 20px;
-    margin-left: 20px;
-    font-size: 25px;
-  }
-  
-  button {
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    margin: 30px auto;
-    background: #AD133A;
-    border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    font-size: 17px;
-    color: white;
-  }
-  
-  button:hover {
-    background: #4c2827;
-    border-bottom-color: #111;
-  }
-  
-  button:active {
-    position: relative;
-    top: 1px;
-  }
-  
-  #totalTip {
-    font-size: 30px;
-    margin-top: 5px;
-    text-align: center;
-  }
-  
-  #totalTip:before {
-    content: "Tip amount";
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-    text-transform: uppercase;
-  }
-  
-  #totalTip sup {
-    font-size: 20px;
-    top: -18px;
-  }
-  
-  #totalTip small {
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
+  .calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+    margin-bottom: 40%;
   }
 
-  select{
-      max-width: 300px;
+  input, select{
+    width: 250px;
+    display: block;
+    margin: 10px auto;
   }
+  
+
+  .pre {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    color: #212121;
+    font-size: 18px;
+    border-bottom: 3px solid #33CC88;
+    background: #EEE;
+    border-radius: 8px 0px 0px 0px;
+   }
+
+   #money{
+     display: flex;
+   }
+
+   #money input{
+     margin: 10px;
+   }
+
+   #money span{
+     margin-top: 10px;
+     margin-right: -5px;
+   };
+  
