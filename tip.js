@@ -25,6 +25,7 @@ function calculateTip() {
 
     var total = (cost * service) / people;
 
+    // Initializing a variable for a tip class that stores the tip value. Changing its inner HTML text afterwords using concatenation
     var show = document.querySelector(".tip");
     show.innerHTML = "€" + total.toFixed(2) + " each";
 };

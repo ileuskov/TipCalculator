@@ -1,21 +1,11 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: no-repeat center center fixed;;
+    background: no-repeat center center fixed;
     background-image: linear-gradient(to right bottom, #7a8cff, #00b8ff, #00d7f4,#00e893, #87be0e);
     font-family: 'Concert One', cursive;
 }
 
-.container {
-    height: 525px;
-    max-width: 360px;
-    margin: 100px auto;
-    background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-  }
   
   h1 {
     background: #33CC88;
@@ -27,6 +17,25 @@ body{
     font-weight: normal;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    text-align: center;
+  }
+
+  input, select{
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+
+  .container {
+    height: 525px;
+    max-width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
   }
   
   .calculator{
@@ -37,13 +46,6 @@ body{
     margin-top: 35%;
     margin-bottom: 40%;
   }
-
-  input, select{
-    width: 250px;
-    display: block;
-    margin: 10px auto;
-  }
-  
 
   .pre {
     display: flex;
